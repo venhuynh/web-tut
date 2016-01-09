@@ -1,0 +1,1031 @@
+/**
+  * Name: RollOne
+  * Version: 1.0
+  * Author: ROLLTHEMES
+  * Author URI: http://www.rollthemes.com
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,800,700,300");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("normalize.css");
+@import url("font-awesome.css");
+
+/*
+ * Repeatable Patterns
+ * Top
+
+*/
+
+/* Repeatable Patterns
+-------------------------------------------------------------- */
+a {
+	color: #19bac8;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease 0s;
+	   -moz-transition: all 0.3s ease 0s;
+		-ms-transition: all 0.3s ease 0s;
+		 -o-transition: all 0.3s ease 0s;
+			transition: all 0.3s ease 0s;
+}
+
+a:hover {
+	color: #404040;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease 0s;
+	   -moz-transition: all 0.3s ease 0s;
+		-ms-transition: all 0.3s ease 0s;
+		 -o-transition: all 0.3s ease 0s;
+			transition: all 0.3s ease 0s;
+}
+
+a:focus {
+	outline: 0;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.margin-top-0 { margin-top: 0; }
+.margin-top-10 { margin-top: 10px; }
+.margin-top-20 { margin-top: 20px; }
+.margin-top-30 { margin-top: 30px; }
+.margin-top-40 { margin-top: 40px; }
+.margin-top-50 { margin-top: 50px; }
+.margin-top-60 { margin-top: 60px; }
+.margin-bottom-0 { margin-bottom: 0; }
+.margin-bottom-10 { margin-bottom: 10px; }
+.margin-bottom-20 { margin-bottom: 20px; }
+.margin-bottom-30 { margin-bottom: 30px; }
+.margin-bottom-40 { margin-bottom: 40px; }
+.margin-bottom-50 { margin-bottom: 50px; }
+.margin-bottom-60 { margin-bottom: 60px; }
+
+.text-color { color: #19bac8 !important; }
+.text-white { color: #fff !important; }
+.text-light { color: #979797 !important; }
+.text-dark { color: #404040 !important; }
+
+textarea:-moz-placeholder,
+textarea::-moz-placeholder,
+input:-moz-placeholder,
+input::-moz-placeholder {
+	color: #c1c1c1;
+	opacity: 1;
+}
+
+input:-ms-input-placeholder {
+	color: #c1c1c1;
+}
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+	color: #c1c1c1;
+}
+
+/* Typography */
+body,
+button,
+input,
+select,
+textarea {
+	font: 14px/24px "Open Sans", sans-serif;
+	color: #979797;
+	background-color: #fff;
+}
+
+b, strong {
+	font-weight: 700;
+}
+
+p {
+	margin-bottom: 24px;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	border-left: 5px solid #f1f1f1;
+	color: #a0978d;
+	font-size: 16px;
+	padding: 15px 0 20px 40px;
+	font-style: italic;
+}
+
+blockquote > p:last-child {
+	margin-bottom: 0;
+}
+
+blockquote cite,
+blockquote small {
+	font-size: 14px;
+}
+
+blockquote em,
+blockquote i,
+blockquote cite {
+	font-style: normal;
+}
+
+blockquote strong,
+blockquote b {
+	font-weight: 600;
+}
+
+blockquote > p:last-child {
+	margin-bottom: 0;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted #c0c0c0;
+	cursor: help;
+}
+
+mark,
+ins {
+	background-color: #cef7fb;
+	text-decoration: none;
+}
+
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+  top: -6px;
+}
+
+sub {
+  bottom: -3px;
+}
+
+small {
+	font-size: 75%;
+}
+
+big {
+	font-size: 125%;
+}
+
+address {
+	font-style: italic;
+	margin: 0 0 20px;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: Inconsolata, monospace;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 0;
+    font-family: Consolas, monospace;
+    height: auto;
+    margin: 0 0 20px;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.break {
+	display: block;
+}
+
+h1 { font: 52px/60px "Raleway", sans-serif; }
+h2 { font: 46px/54px "Raleway", sans-serif; }
+h3 { font: 38px/46px "Raleway", sans-serif; }
+h4 { font: 30px/38px "Raleway", sans-serif; }
+h5 { font: 24px/32px "Raleway", sans-serif; }
+h6 { font: 16px/24px "Raleway", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 { color: #404040; margin: 0 0 15px; font-weight: 700; }
+
+/* Alignments */
+.alignleft {
+	display: inline;
+	float: left;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 8px 30px 25px 0 !important;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 8px 0 25px 30px !important;
+}
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+	clear: both;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+	margin-bottom: 10px;
+}
+
+/* Elements */
+hr {
+	background-color: #eeeeee;
+	border: 0;
+	height: 1px;
+	margin-bottom: 20px;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0 0 30px 25px;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+::-moz-selection { 
+	color: #fff; 
+	text-shadow: none; 
+	background: #333;
+}
+
+::-webkit-selection { 
+	color: #fff; 
+	text-shadow: none; 
+	background: #333; 
+}
+
+::selection { 
+	color: #fff; 
+	text-shadow: none; 
+	background: #333; 
+}
+
+/* Forms */
+button,
+input {
+	line-height: normal;
+}
+
+input,
+textarea {
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)); /* Removing the inner shadow on iOS inputs */
+}
+
+input[type="checkbox"] {
+	display: inline;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	line-height: 1;
+	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
+	border: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	padding: 0; /* Addresses excess padding in IE8/9 */
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
+}
+
+input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+	-webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+	border: 0;
+	padding: 0;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #e1e1e1;
+    font-size: 14px;
+	color: #979797;
+	line-height: 20px;
+	padding: 14px 20px;
+	margin-bottom: 20px;
+	-webkit-transition: border 0.3s ease 0s;
+	   -moz-transition: border 0.3s ease 0s;
+		-ms-transition: border 0.3s ease 0s;
+		 -o-transition: border 0.3s ease 0s;
+			transition: border 0.3s ease 0s;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	outline: 0;
+	border-color: #19bac8;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+		 -o-box-shadow: none;
+			box-shadow: none;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	font-family: "Raleway", sans-serif;
+    font-size: 12px;
+	background-color: #19bac8;
+    color: #fff;
+    font-weight: 700;
+    padding: 19px 27px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+       -moz-transition: all 0.3s ease 0s;
+        -ms-transition: all 0.3s ease 0s;
+         -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+}
+
+input[type="submit"].green {
+	background-color: #83c129;
+}
+
+input[type="submit"].red {
+	background-color: #ff4f3a;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	outline: 0;
+}
+
+/* Bootstrap resetting elements */
+.btn {
+	background-image: none;
+}
+
+textarea, 
+input[type="text"],
+input[type="submit"],
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"], 
+.uneditable-input,
+.dropdown-menu,
+.navbar .nav > .active > a, 
+.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a:focus {
+	-webkit-appearance: none;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+		 -o-box-shadow: none;
+			box-shadow: none;
+}
+
+.post-password-form {
+	position: relative;
+}
+
+.post-password-form label {
+	color: #707070;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.post-password-form input[type="submit"] {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/* Top
+-------------------------------------------------------------- */
+.top {
+	background-color: #191919;
+	padding: 13px 0;
+}
+
+.top .contact-info {
+	margin: 0;
+}
+
+.top .contact-info li {
+	display: inline-block;
+	list-style: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 12px;
+	margin-right:  25px;
+	position: relative;
+	padding-left: 20px;
+}
+
+.top .contact-info li > a {
+	color: #fff;
+}
+
+.top .contact-info li:before {
+	font-family: "FontAwesome";
+	content: "\f041";
+	position: absolute;
+	color: #19bac8;
+	left: 0;
+	top: 0;
+	font-size: 16px;
+}
+
+.top .socials-icon > a {
+	display: inline-block;
+	font-size: 16px;
+	padding-left: 16px;
+	color: #5a5a5a;
+}
+.top .socials-icon > a:hover {
+	color: #19bac8;
+}
+
+/* Header
+-------------------------------------------------------------- */
+/*
+1. li phai relative
+2. li cap 1 la float left
+3. a cap 1 xac dinh do cao header
+4. absolute lay to do cha lam goc
+*/
+.logo {
+	margin-top: 34px;
+}
+.mainnav ul {
+	margin: 0;
+}
+.mainnav ul li {
+	position: relative;
+	list-style: none;
+}
+
+.mainnav > ul > li {
+	float: left;
+	
+}
+.mainnav > ul > li > a {
+	line-height: 92px;
+	display: inline-block;
+	font-family: "Raleway",sans-serif;
+	font-size: 14px;
+	padding: 0 20px;
+	color: #585252;
+}
+.mainnav ul li ul {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	opacity: 0;
+	visibility: hidden;
+	background-color: red;
+	width: 200px;
+}
+
+.mainnav ul li ul li ul {
+	left: 100%;
+	top: 0;
+}
+
+.mainnav ul li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+}
+/*.mainnav .hassub:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;
+	height: 100px;
+	border-width: 100px 100px 0 0;
+	border-style: solid;
+	border-color: red transparent transparent transparent;
+}
+
+.mainnav .hassub:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 100px;
+	height: 100px;
+	border-width: 100px 100px 0 0;
+	border-style: solid;
+	border-color: blue transparent transparent transparent;
+}*/
+.header .search-icon {
+	height: 28px;
+	position: relative;
+	margin-top: 33px;
+	border-left: 1px solid #ddd;
+	padding-left: 30px;
+	margin-left: 30px;
+}
+
+.header .search-icon:after {
+	content: "\f002";
+	font-family: "FontAwesome";
+	font-size: 18px;
+	color: #888;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+/* PageTitle
+-------------------------------------------------------------- */
+.page-title {
+	background-color: #f1f1f1;
+}
+.page-title-wrap {
+	display: table;
+	overflow: hidden;
+	width: 100%;
+}
+.page-title-wrap .page-title-heading {
+	display: table-cell;
+	width: 70%;
+	vertical-align: middle;
+}
+.page-title-wrap .page-title-heading h3 {
+	margin: 0;
+	font-size: 20px;
+	line-height: 28px;
+	color: #585252;
+	padding: 57px 0;
+}
+.page-title-wrap .page-title-crumbs {
+	display: table-cell;
+	width: 30%;
+	vertical-align: middle;
+}
+.page-title-wrap .page-title-crumbs #crumbs {
+	float: right;
+	text-align: right;
+}
+.page-title-wrap .page-title-crumbs #crumbs a{
+	position: relative;
+	padding-right: 40px;
+}
+.page-title-wrap .page-title-crumbs #crumbs a:after {
+	content: "/";
+	color: #585252;
+	position: absolute;
+	right: 18px; 
+	top: 0;
+}
+
+/* Content
+-------------------------------------------------------------- */
+/*
+/*content-left*/
+.content {
+	padding: 80px 0;
+}
+.content .content-left {
+	width: 23.07%;
+	float: left;
+	margin-right: 8.54%;
+}
+.content .content-right {
+	width: 68.37%;
+	float: left;
+}
+/*widget*/
+.content .sidebar .widget {
+	margin-top: 70px;
+}
+.content .sidebar .widget:first-child {
+	margin-top: 0px;
+}
+/*widget-search*/
+.widget-search .searchform{
+	position: relative;
+}
+.widget-search .searchform #searchsubmit {
+	font-family: "FontAwesome";
+	font-size: 20px;
+	color: #19bac8;
+	background-color: transparent;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: #19bac8;
+	position: absolute;
+	right: 9px;
+	top: -3px;
+}
+.widget-search .searchform #s{
+	margin: 0;
+}
+.sidebar .widget-title{
+	font-size: 18px;
+	line-height: 26px;
+}
+/*widget-categiries*/
+.sidebar .widget-categiries ul {
+	margin: 0;
+}
+.sidebar .widget-categiries ul li {
+	list-style: none;
+	padding: 13px 0;
+	border-top: solid 1px #eee;
+	position: relative;
+}
+.sidebar .widget-categiries ul li a{
+	color: #979797;
+}
+.sidebar .widget-categiries ul li a:hover{
+	color: #19bac8;
+
+}
+.sidebar .widget-categiries ul li:first-child {
+	border: 0;
+}
+.sidebar .widget-categiries ul li:after {
+	font-family: "FontAwesome";
+	content: "\f105";
+	position: absolute;
+	right: 0;
+	top: 14px;
+}
+/*widget-recent-posts*/
+.sidebar .widget-recent-posts ul {
+	margin: 0;
+}
+.sidebar .widget-recent-posts>ul>li {
+	list-style: none;
+	padding: 20px 0;
+	border-top: solid 1px #eee; 
+}
+.sidebar .widget-recent-posts>ul>.last {
+	padding-bottom: 0;
+}
+.sidebar .widget-recent-posts>ul>li:first-child {
+	border-top: 0;
+}
+.sidebar .widget-recent-posts ul li .thumb {
+	float: left;
+}
+.sidebar .widget-recent-posts ul li h5 {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-left: 80px;
+	margin-bottom: 0;
+}
+.sidebar .widget-recent-posts ul li h5>a {
+	color: #979797;
+}
+.sidebar .widget-recent-posts ul li .meta-date {
+	margin-left: 80px;
+}
+.sidebar .widget-recent-posts ul li .meta-date  li:first-child>a{
+	color: #bdbdbd;
+}
+.sidebar .widget-recent-posts ul li .meta-date  li{
+	font-family: "Raleway",sans-serif;
+	font-size: 13px;
+	list-style: none;
+	display: inline-block;
+}
+/*widget-popular*/
+.sidebar .widget-popular{
+	margin: 0;
+}
+.sidebar .widget-popular .tags{
+	display: inline-block;
+	margin-top: 12px; 
+}
+.sidebar .widget-popular .tags>a{
+	display: inline-block;
+	float: left;
+	margin: 5px 10px 5px 0px;
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	color: #979797;
+	line-height: 26px;
+	padding: 6px 11px;
+	border: solid 1px #e5e5e5;
+}
+.sidebar .widget-popular .tags>a:hover{
+	background-color: #19bac8;
+	color: #fff;
+}
+/*content-right*/
+.content-wrap .post {
+	border-top: solid 1px #eee;
+	padding: 60px 0;
+}
+.content-wrap .post:first-child {
+	border:0;
+	padding-top: 0;
+}
+.content-wrap .post .title-post {
+	font-size: 22px;
+	font-weight: 700px;
+	line-height: 28.8px;
+	margin: 30px 0;
+}
+.content-wrap .post .title-post a {
+	color: #404040;
+}
+.content-wrap .post .title-post a:hover {
+	color: #19bac8;
+}
+.content-wrap .post .meta-post {
+	margin: 0;
+}
+.content-wrap .post .meta-post>li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	padding: 0 20px;
+
+}
+.content-wrap .post .meta-post>li:before {
+	font-family: "FontAwesome";
+	content: "\f017";
+	color: #19bac8;
+	font-size: 15px;
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+.content-wrap .post .meta-post > li > a {
+	color: #bababa;
+} 
+.content-wrap .post .meta-post > li > a:hover {
+	color: #19bac8;
+}
+/*pagination*/
+.content-wrap .pagination {
+	margin: 0;
+	text-align: center;
+	display: block;
+}
+
+.content-wrap .pagination li a {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 26px;
+	width: 40px;
+	text-align: center;
+	display: inline-block;
+	float: none;
+}
+.pagination > .active > a {
+	background-color: #19bac8;
+	border-color: #19bac8;
+}
+.content-wrap .pagination > li > a:hover {
+	background-color: #19bac8;
+	border-color: #19bac8;
+}
+
+/* Footer
+-------------------------------------------------------------- */
+.site-footer{
+	background-color: #2d2d2d;
+}
+.site-footer .widget-title {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+	margin: 60px 0px 37px;
+}
+.site-footer .widget-about a {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fefefe;
+	background-color: #19bac8;
+	padding: 10px 66px 10px 26px;
+	position: relative;
+}
+.site-footer .widget-about a:after {
+	font-family: "FontAwesome";
+	content: "\f061";
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 40px;
+	width: 40px;
+	background-color: #249ca6;
+	line-height: 40px;
+	text-align: center;
+}
+.site-footer .widget-instagram {
+
+}
+.site-footer .widget-instagram ul {
+	margin: 0;
+	display: inline-block;
+	clear: both;
+}
+.site-footer .widget-instagram ul li {
+	list-style: none;
+	width: 29.62%;
+	float: left;
+	margin:0 5.5% 5.5% 0;
+}
+.site-footer .widget-instagram ul .last {
+	margin-right: 0;
+}
+.site-footer .widget-Twitter ul{
+	margin: 0;
+}
+.site-footer .widget-Twitter ul li{
+	margin: 0;
+	list-style: none;
+	position: relative;
+	display: block;
+	padding: 30px 0 30px 30px;
+	border-top: solid 1px #474747;
+}
+.site-footer .widget-Twitter ul li span {
+	color: #249ca6;
+	font-size: 13px;
+}
+.site-footer .widget-Twitter ul li:before {
+	content: "\f099";
+	font-family: "FontAwesome";
+	font-size: 16px;
+	color: #19bac8;
+	position: absolute;
+	left: 0;
+	top: 100;
+	width: 30px;
+	height: 30px;
+}
+.site-footer .widget-Twitter ul li:first-child {
+	border: 0;
+	padding-top: 0;
+}
+.site-footer .widget-contact ul {
+	margin: 0;
+}
+.site-footer .widget-contact ul li {
+	list-style: none;
+	position: relative;
+	display: block;
+	margin-top: 40px; 
+	list-style: 26px;
+	padding-left: 30px;
+}
+.site-footer .widget-contact ul li:first-child {
+	margin:0;
+}
+.site-footer .widget-contact ul li:before {
+	content: "\f095";
+	font-family: "FontAwesome";
+	font-size: 16px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:30px; 
+	height:30px;
+	color: #19bac8;
+}
+
+/*Coppy Right
+-------------------------------------------------------------- */
+.coppy-right {
+	background-color: #191919;
+	display: block;
+	text-align: center;
+	padding-top: 19px;
+}
+.coppy-right .text-coppyright {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #19bac8;
+}
+/*BlogSingle
+-------------------------------------------------------------- */
+.post .sumary-post-detail {
+	margin-top: 30px;
+}
+.post .block-quote {
+	background-image: url("../images/4.jpg");
+}
+.post .block-quote blockquote {
+	font-family: "Open+Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #666666;
+	padding: 32px;
+	margin: 0;
+	border:0;
+	line-height: 22.4px;
+}
