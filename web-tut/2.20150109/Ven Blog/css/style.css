@@ -1,0 +1,96 @@
+@import url("normalize.css");
+@import url("bootstrap.css");
+@import url("font-awesome.css");
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #979797;
+	width: 1600px;
+	margin: 0 auto;
+}
+
+a {
+	color: #19bac8;
+}
+
+
+/* Headeer */
+.header {
+
+	width: 100%;
+	background-color: black;
+}
+.top {
+	
+}
+.contact-info ul li {
+	/*float: left;*/
+	display: inline-block;
+	list-style: none;
+	
+}
+
+.contact-info ul li a {
+	display: inline-block;
+	font-family: "raleway",sans-serif;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	/*padding: 13px 0;*/
+
+	line-height: 50px;
+	}
+
+.contact-info ul li {
+	margin-left: 56px;
+}
+.contact-info ul li.place {
+	/*padding-left: 236px;*/
+}
+
+.contact-info ul .place:before {
+	content: "\f041";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+
+    color: #19bac8;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.contact-info ul .contact:before {
+	content: "\f003";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+
+    color: #19bac8;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.contact-info ul .phone:before {
+	content: "\f095";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+
+    color: #19bac8;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+/*.contact-info ul li a {
+	color: #fff;
+}*/
+.social-icons {
+	display: inline-block;
+	
+}
+

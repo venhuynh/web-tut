@@ -1,0 +1,84 @@
+@import url("normalize.css");
+@import url("bootstrap.css");
+@import url("font-awesome.css");
+
+.nav-menu ul li {
+	display: inline-block;
+	padding: 15px;
+}
+
+.nav-menu ul li a{
+	display: inline-block;
+	list-style: none;
+	margin: 15px; /* Vung khong gian Nam ngoai li, giua doi tuong voi doi tuong 
+					Trong dev phat trien menu khong su dung margin ma su dung padding*/
+	background-color: red;
+	padding: 50px 20px 10px;/* Vung khong gian Nam trong li */
+}
+
+
+
+/* hinh vuong*/
+.hinhvuong1 {
+	width: 100px;
+	height: 200px;
+	border: 1px solid black;
+	background: red;
+	float: left;
+}
+
+.hinhvuong2 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+	background: black;
+	float: right;
+
+}
+
+.hinhvuong3 {
+	width: 100px;
+	height: 200px;
+	border: 1px solid yellow;
+	background: yellow;
+	float: right;
+
+}
+
+.clearfix2:before, 
+.clearfix2:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Menu */
+.displayright {
+	float: right;
+}
+.header ul {
+	font-size: 0px;
+}
+
+.header ul li {
+	display: inline-block;
+	padding: 20px;
+	list-style: none;
+	text-align: center;
+	background-color: red;
+}
+
+.header ul li a {
+	padding: 20px;
+	list-style: none;
+	padding: 20px;
+	font-size: 14px;
+}
+.hinhvuong4 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid yellow;
+	background: yellow;
+	margin: 0 auto; /* Canh giua doi tuong so voi man hinh*/
+
+}
