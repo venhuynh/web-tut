@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 3 Typography</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .example{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="example">
+        <div class="container">
+            <div class="row">
+                <h1>1. Định dạng typography với tag h1->h6</h1>
+                <hr>
+                <p>Tôi sẽ bọc một đoạn nội dung nhỏ vào 6 thẻ tag trên và tất nhiên và kết quả sẽ giống như ví dụ sau. Và trong ví dụ này tôi cũng sử dụng 6 class <code>h1->h6</code> mà bootstrap hỗ trợ để xem kết quả của cả 2 có giống nhau hay không.</p>
+                <hr>
+                <h1>h1. Freetuts.net</h1>
+                <h2>h2. Freetuts.net</h2>
+                <h3>h3. Freetuts.net</h3>
+                <h4>h4. Freetuts.net</h4>
+                <h5>h5. Freetuts.net</h5>
+                <h6>h6. Freetuts.net</h6>
+                <hr>
+                <div class="h1">h1. Freetuts.net</div>
+                <div class="h2">h2. Freetuts.net</div>
+                <div class="h3">h3. Freetuts.net</div>
+                <div class="h4">h4. Freetuts.net</div>
+                <div class="h5">h5. Freetuts.net</div>
+                <div class="h6">h6. Freetuts.net</div>
+            </div>
+
+        </div>
+</div>
+
+<div class="example">
+        <div class="container">
+            <div class="row">
+                <h1>h1. Freetuts.net <small>Là website học php miễn phí</small></h1>
+                <h2>h2. Freetuts.net <small>Là website học php miễn phí</small></h2>
+                <h3>h3. Freetuts.net <small>Là website học php miễn phí</small></h3>
+                <h4>h4. Freetuts.net <small>Là website học php miễn phí</small></h4>
+                <h5>h5. Freetuts.net <small>Là website học php miễn phí</small></h5>
+                <h6>h6. Freetuts.net <small>Là website học php miễn phí</small></h6>
+                <hr>
+                <h1>h1. Freetuts.net <span class="small">Là website học php miễn phí</span></h1>
+                <h2>h2. Freetuts.net <span class="small">Là website học php miễn phí</span></h2>
+                <h3>h3. Freetuts.net <span class="small">Là website học php miễn phí</span></h3>
+                <h4>h4. Freetuts.net <span class="small">Là website học php miễn phí</span></h4>
+                <h5>h5. Freetuts.net <span class="small">Là website học php miễn phí</span></h5>
+                <h6>h6. Freetuts.net <span class="small">Là website học php miễn phí</span></h6>
+            </div>
+        </div>
+</div>
+
+<div class="example">
+        <div class="container">
+            <div class="row">
+                <h1>2. Định dạng paragraphs hay còn gọi là tag</h1>
+                <p>
+                    Mặc định font-size mà bootstrap hỗ trợ cho chúng ta là 14px đều này được áp dụng cho toàn bộ nội dung được bao bọc bên trong tag <code>&lt;body&gt;</code> và chiều cao văn bản được áp dụng cho mọi tag <code>&lt;p&gt;</code> là 10px. Ngoài ra nếu bạn muốn làm cho nội dung bên trong tag <code>&lt;p&gt; </code> được nổi bật thì bootstrap hỗ trợ cho chúng ta class <code>lead</code> để làm điều đó. Và để thấu hiểu thì tôi có một ví dụ nhỏ. </p>
+                   
+                <div class="page-header">
+                    <h1>Học bootstrap 3 <small>miễn phí cùng với freetuts.net</small></h1>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+<div class="example">
+        <div class="container">
+            <div class="row">
+                <p>Bên cạnh đó thuộc tính typography bootstrap còn giúp chúng ta dễ dàng canh trái, phải, giữa nội dung một cách không thể nào dễ hơn.</p>
+                <ul>
+                <li><strong>text-left (Canh trái)</strong></li>
+                <li><strong>text-center (Canh giữa)</strong></li>
+                <li><strong>text-right (Canh phải)</strong></li>
+                <li><strong>text-justify (Canh đều nội dung)</strong></li>
+                </ul>
+                <p class="text-left">Left text.</p>
+                <p class="text-center">Center text.</p>
+                <p class="text-right">Right text.</p>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam.</p>
+            </div>
+        </div>
+</div>
+
+<div class="example">
+        <div class="container">
+            <div class="row">
+                 <p>Không dừng lại ở đây, các bạn còn có thể dễ dàng chuyển đổi nội dung thành in hoa, in thường và viết hoa chữ cái đầu rất đơn giản chỉ với 3 class sau.</p>
+                <ul>
+                    <li><strong>text-lowercase (In thường)</strong></li>
+                    <li><strong>text-uppercase (In hoa)</strong></li>
+                    <li><strong>text-capitalize (In hoa chữ cái đầu)</strong></li>
+                </ul>
+                <p class="text-lowercase">Freetuts.net là website học php miễn phí hàng đầu việt nam.</p>
+                <p class="text-uppercase">Freetuts.net là website học php miễn phí hàng đầu việt nam.</p>
+                <p class="text-capitalize">Freetuts.net là website học php miễn phí hàng đầu việt nam.</p>
+        </div>
+</div>
+</div>
+
+<div class="example">
+        <div class="container">
+            <div class="row">
+                <p>Chưa hết đâu nha, khi các bạn trình bày nội dung thì hẳn các bạn hay dùng màu sắc để tô lên vẻ nội bật cho nội dung phải không nào, có lẽ vì thế mà bootstrap cũng hỗ trợ chúng ta phần thể hiện nội dung với từng sắc thái màu khác nhau.</p>
+                <ul>
+                    <li><strong>text-muted</strong></li>
+                    <li><strong>text-primary</strong></li>
+                    <li><strong>text-success</strong></li>
+                    <li><strong>text-info</strong></li>
+                    <li><strong>text-warning</strong></li>
+                    <li><strong>text-danger</strong></li>
+                </ul>
+
+            <p class="text-muted">Muted: Freetuts.net nơi thể hiện kỹ năng lập trình của bạn.</p>
+                <p class="text-primary">Important: Freetuts.net nơi thể hiện kỹ năng lập trình của bạn.</p>
+                <p class="text-success">Success: Freetuts.net nơi thể hiện kỹ năng lập trình của bạn.</p>
+                <p class="text-info">Note: Freetuts.net nơi thể hiện kỹ năng lập trình của bạn.</p>
+                <p class="text-warning">Warning: Freetuts.net nơi thể hiện kỹ năng lập trình của bạn.</p>
+                <p class="text-danger">Error: Freetuts.net nơi thể hiện kỹ năng lập trình của bạn.</p>
+            </div>
+</div>
+</div>
+
+<div class="example">
+        <div class="container">
+            <div class="row">
+                <h1>2. Định dạng blockquotes</h1>
+                <p>Blockquote có tên tiếng anh là trích dẫn, khi bạn có đoạn nội dung mà muốn thể hiện thành trích dẫn thì bọc nội dung đó vào tag <code>&lt;blockquote&gt;</code> tôi có một ví dụ nhỏ như sau.</p>
+             <blockquote>
+                <p>Học nửa học mãi và học cho tới hộc máu luôn ^^</p>
+                <small>Bởi <cite>Hasegawa Kaito</cite></small>
+            </blockquote>
+
+            <h1>Lời Kết:</h1><hr>
+            <p>Với sự hỗ trợ mạnh mẽ và dễ dàng tùy biến <strong>typography bootstrap</strong> thì việc trang trí nội dung văn bản không còn là vấn đề khó với chúng ta nửa, hy vọng qua bài viết này các bạn có thêm nhiều lựa chon để trang trí website mình thật là bắt mắt hơn.</p>
+        </div>
+</div>
+</div>
+    </body>
+    </html>

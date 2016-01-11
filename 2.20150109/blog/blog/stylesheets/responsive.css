@@ -1,0 +1,395 @@
+/* Media Queries
+-------------------------------------------------------------- */
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+}
+
+/* Smaller than standard 1200 */
+@media only screen and (max-width: 1199px) {
+	.header-small .btn-menu {
+		margin: 18px 0 19px;
+	}
+
+	.sidebar .widget-area {
+		padding-right: 0;
+	}
+
+	.break {
+		display: inline;
+	}
+}
+
+/* Smaller than standard 992 */
+@media only screen and (max-width: 991px) {
+	.rt-spacer.height-20 {
+		height: 10px;
+	}
+	.rt-spacer.height-40,
+	.rt-spacer.height-70,
+	.rt-spacer.height-80 {
+		height: 20px;
+	}
+
+	.rt-spacer.height-50 {
+		height: 0px;
+	}
+
+	.rt-spacer.height-60 {
+		height: 45px;
+	}
+
+	.btn-menu {
+		display: block ;
+	}
+
+	#mainnav {
+		display: none;
+	}
+
+	.rt-iconbox {
+		margin-bottom: 33px;
+	}
+
+	.rt-row,
+	.rt-row.price-tables,
+	.rt-row.services,
+	.rt-row.blog,
+	.rt-row.tetimonials,
+	.rt-row.works {
+		padding: 45px 0;
+	}
+
+	.works-masonry .works-container .item {
+		width: 50%;
+	}
+
+	.rt-testimonials .whisper {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.works-masonry.style2 .media-wrap .hover .project-title {
+		font-size: 18px;
+		padding: 12px;
+	}
+
+	.footer-column {
+		width: 25% !important;
+		margin-left: 0 !important;
+	}
+
+	.widget-subscribe {
+		padding: 0;
+	}
+
+	.img-wrap {
+		clear: both;
+		padding: 30px 0 0 60px;
+	}
+
+	.price-table-wrap {
+		width: 100%;
+	}
+
+	.price-table {
+		float: none;
+		margin: 0 auto 30px !important;
+	}
+
+	.price-table-wrap .price-table:last-child {
+		margin-bottom: 0 !important;
+	}
+
+	.portfolio-slider {
+		margin-bottom: 10px;
+	}
+
+	.portfolio-share {
+		margin-bottom: 30px;
+	}
+
+	.portfolio-single-page .image-custom{
+		width: 100%;
+		height: auto;
+	}
+
+	.related-portfolio {
+		padding: 37px 0;
+	}
+
+	.related-portfolio .item-portfolio {
+		margin-bottom: 30px;
+	}
+
+	.related-portfolio .item-portfolio img {
+		width: 100%;
+		height: auto;
+	}
+
+	.contact-slider {
+		padding: 100px;
+	}
+
+	.content-wrap {
+		padding-right: 0;
+	}
+
+	.contact-slider .slogan {
+		font-size: 30px;
+		line-height: 38px;
+	}
+
+	.footer .copy-right {
+	    margin-top: 45px;
+	    text-align: center;
+	}
+
+	.footer .copy-right .text span {
+		display: inline;
+	}
+
+	.no-margin-device {
+		margin: 0;
+	}
+
+	.owl-theme .owl-controls,
+	.flex-direction-nav {
+		display: none;
+	}
+}
+
+/* Tablet Landscape */
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+/* Tablet Portrait Size */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+	h1 { font: 50px/60px "Open Sans", sans-serif; }
+	h2 { font: 44px/56px "Open Sans", sans-serif; }
+	h3 { font: 32px/42px "Open Sans", sans-serif; }
+	h4 { font: 26px/36px "Open Sans", sans-serif; }
+	h5 { font: 20px/30px "Open Sans", sans-serif; }
+	h6 { font: 18px/26px "Open Sans", sans-serif; }
+
+	.rt-spacer.height-60 {
+		height: 10px;
+	}
+
+	.page-title-wrap,
+	.page-title-heading,
+	.page-title-crumbs {
+		width: 100%;
+		display: block;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	.page-title #crumbs,
+	.page-title-heading h3 {
+		text-align: center;
+		float: none;
+	}
+
+	.page-title {
+		padding: 18px;
+	}
+
+	.page-title-heading h3 {
+		font-size: 30px;
+	}
+
+	.services-slider h1 {
+		font-size: 36px;
+		line-height: 36px;
+		padding: 14px 27px;
+	}
+
+	.services-slider p {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+
+	.works-masonry .works-container {
+		margin: 0;
+	}
+	.works-masonry .works-container .item,
+	.works-masonry .works-container .item.w2 {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.img-wrap {
+		padding-left: 0;
+	}
+
+	.rt-title-box .title {
+		font-size: 24px;
+		line-height: 32px;
+		font-weight: 400;
+	}
+
+	.rl-column.column-3 {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+
+	.page-wrap,
+	.page-wrap.contact-page {
+		padding: 45px 0;
+	}
+
+	.page-wrap.portfolio-page {
+		padding: 40px 0 45px;
+	}
+
+	.rt-team .photo img {
+		width: 100%;
+		height: auto;
+	}
+
+	.works-masonry ul.layout-switcher {
+		display: none;
+	}
+
+	.works-masonry ul.work-filter li a, .works-masonry ul.layout-switcher li a {
+		padding: 3px 7px;
+	}
+
+	.works-masonry .load-more {
+		margin-top: 45px;
+	}
+
+	.rt-contact-form .input-wrap input {
+		width: 100%;
+	}
+
+	.sidebar .widget-info-contact.has-bg,
+	.rt-contact-form {
+		padding-right: 0;
+	}
+
+	.post-date {
+		display: none;
+	}
+
+	.post.sticky-post .title-post,
+	.post.format-standard .title-post,
+	.post .post-body .title-post {
+		font-size: 24px;
+		line-height: 34px;
+		margin-bottom: 20px;
+	}
+
+	.post {
+	    margin-top: 30px;
+	    padding-top: 30px;
+	}
+
+	.share-post {
+		margin-left: 0;
+	}
+
+	.share-post span a {
+		margin-bottom: 5px;
+	}
+
+	.share-post span a {
+		padding: 4px 25px 5px 41px;
+	}
+
+	.share-post span a::before {
+		top: 8px;
+	}
+
+	.comment-post {
+		margin: 30px 0 0;
+	}
+
+	.comment-respond .textarea-wrap textarea,
+	.comment-respond .input-wrap input {
+		width: 100%;
+	}
+
+	.comment-respond .input-wrap input + span {
+		display: none;
+	}
+
+	.widget.widget-featured-posts li {
+		padding-top: 30px;
+	}
+
+	.widget.widget-featured-posts li:first-child {
+		padding-top: 0;
+	}
+
+	.posts-navigation {
+		margin: 0 0 50px;
+	}
+
+	.footer-column {
+		width: 100% !important;
+		margin-bottom: 30px;
+	}
+
+	.footer {
+		padding: 50px 0 45px;
+	}
+}
+
+/* Mobile Landscape Size */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size */
+@media only screen and (max-width: 479px) {
+	.works-masonry ul.work-filter li a, .works-masonry ul.layout-switcher li a {
+		padding: 3px 7px;
+	}
+
+	.works-masonry .load-more a {
+	    display: inline-block;
+	    padding: 12px 57px 13px;
+	}
+
+}
+
+@media (max-width: 320px) {
+	.price-table-wrap .price-table {
+		width: 100%;
+	}
+	.works-masonry .media-wrap .desc {
+		font-size: 12px;
+	}
+}
+
+/* Retina Devices */
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (   -moz-min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx){
+	.btn-menu {
+		background: url(../images/btn-menu@2x.png) no-repeat center center;
+		background-size: 40px 28px;
+	}
+
+	.rt-testimonials .whisper:before {
+	    background: url(../images/quote@2x.png) no-repeat center center;
+	    background-size: 35px 27px;
+	}
+}

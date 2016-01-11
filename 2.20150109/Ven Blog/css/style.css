@@ -1,0 +1,33 @@
+@import url("normalize.css");
+@import url("bootstrap.css");
+@import url("font-awesome.css");
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #979797;
+
+}
+
+a {
+	color: #19bac8;
+
+}
+
+.top {
+	
+}
+.contact-info ul li {
+	margin-right: 25px;
+	position: relative;
+	padding-left: 20px;
+	list-style: none;
+	float: left;
+}
+/*.contact-info ul li a {
+	color: #fff;
+}*/
+.social-icons {
+	float: right;
+}
